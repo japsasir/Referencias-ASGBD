@@ -48,9 +48,17 @@ MongoDB no es un SGBD adecuado para realizar transacciones complejas.
 
 ### Instalando MySQL en docker
 #### Lanzando contenedor con persistencia de datos
-`docker run -d --name mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -v /home/asgbd/mysql_data:/var/lib/mysql mysql:8.0.22`
+```bash
+docker run -d --name mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -v /home/asgbd/mysql_data:/var/lib/mysql mysql:8.0.22
+```
+##### ¿Y qué significa todo esto?
+```bash
+-d --name -e -p -v 
+```
 #### Usar docker como usuario. La variable coge nuestro usuario actual.
-`sudo usermod -aG docker $USER`
+```bash
+sudo usermod -aG docker $USER
+```
 
 #### Algunos comandos útiles
 `sudo systemctl status docker` Comprueba que docker este activo.
@@ -71,16 +79,30 @@ MongoDB no es un SGBD adecuado para realizar transacciones complejas.
 `sudo apt install mysql-workbench-community.`
 #### Para hacer nuestras tareas, nos aseguramos de que poder ver las tablas ocultas.
 ![Tablas](https://i.imgur.com/ZUfCPKd.png "Tablas")
-
-
-
 #### Referencias:
 https://www.how2shout.com/how-to/how-to-install-mysql-workbench-on-ubuntu-20-04-lts.html
 
 ------------
 
-
 ## Actividad 3: Actividad configuración MYSQL
+
+### 1. El fichero de configuración
+
+### 2. Variables del servidor
+
+### 3. Variables de estado
+
+### 4. Variables dinámicas
+
+### 5. Parámetros de configuración comunes
+
+### 6. my-large
+
+### 7. Modificando la configuración
+
+
+
+
 
 ------------
 
