@@ -2,13 +2,44 @@
 
 
 ## Actividad 1: Comparativa de SGBD
-Indica las ventajas e inconvenientes de cada uno de ellos, así como las  características principales que hace que se diferencien los unos de los otros. 
-### ORACLE 
-### SQL SERVER 
-### MYSQL 
-### POSTGRESQL 
-### MONGODB 
+Indica las ventajas e inconvenientes de cada uno de ellos, así como las  características principales que hace que se diferencien los unos de los otros.
 
+### ORACLE
+#### Ventajas
+Buen soporte, estabilidad, escalabilidad. Intuitivo para los usuarios. Controlado por navegador, facilita el uso desde cualquier SO
+#### Inconvenientes
+Aunque cuenta con una versión gratuita, su principal desventaja es el precio. La licencia es cara y la dificultad de instalar y configurar el sistema requiere de personal altamente competente y con sueldo acorde.
+### SQL SERVER 
+#### Ventajas
+Sistema propietario de Microsoft con el consiguiente soporte. Interfaz gráfica intuitiva, acceso a numerosos scripts prefabricados, escalabilidad atractiva para empresas pequeñas.
+
+#### Inconvenientes
+Precio para opciones avanzadas, problemas de retrocompatibilidad, alto consumo de memoria.
+
+### MYSQL 
+#### Ventajas
+Versión gratuita muy completa. Fácil de instalar. Buen rendimiento en diferentes tamaños de bases de datos salvo las más pesadas. Multiplataforma. Soportado en contenedor docker. 
+#### Inconvenientes
+El rendimiento decae rápidamente en bases de datos muy grandes.
+### POSTGRESQL 
+#### Ventajas
+Open Source. Flexibilidad de programación, muy personalizable si se tienen conocimientos. Dispone de una interfaz de programación con la que se puede integrar su aplicación con terceros.
+
+#### Inconvenientes
+Interfaz muy particular. Requiere trabajo de personalización para maximizar el rendimiento, por defecto tiene menor rendimiento que MySQL por ejemplo.
+### MONGODB 
+#### Ventajas
+Indexación y replicación
+Balanceo de carga
+Almacenamiento en ficheros
+Consultas ad hoc (Permiten incluir variables, de tal forma que la misma operación puede dar resultados diferentes)
+Escalabilidad horizontal (Funciona bien con varios servidores actuando como un todo)
+Open Source
+Gran agilidad con bases de datos pequeñas
+
+#### Inconvenientes
+
+MongoDB no es un SGBD adecuado para realizar transacciones complejas.
 ------------
 
 
