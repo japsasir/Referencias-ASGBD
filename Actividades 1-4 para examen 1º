@@ -40,6 +40,7 @@ Gran agilidad con bases de datos pequeñas
 #### Inconvenientes
 
 MongoDB no es un SGBD adecuado para realizar transacciones complejas.
+
 ------------
 
 
