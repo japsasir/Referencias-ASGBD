@@ -108,6 +108,11 @@ https://www.how2shout.com/how-to/how-to-install-mysql-workbench-on-ubuntu-20-04-
 
 
 ## Actividad 4: Actividad ficheros logs
+### LOG DE ERROR 
+#### Forzando un evento en el log de error
+### LOG DE CONSULTAS 
+### LOG BINARIO 
+### LOG DE CONSULTAS LENTAS
 
 
 ------------
